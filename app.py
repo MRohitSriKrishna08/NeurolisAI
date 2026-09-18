@@ -131,7 +131,7 @@ def login():
     #     redirect_uri
     # )
     return google.authorize_redirect(
-        "https://neurolisai-production.up.railway.app//auth/google/callback"
+        "https://neurolisai-production.up.railway.app/auth/google/callback"
     )
 
 # Google Callback
